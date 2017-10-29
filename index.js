@@ -9,7 +9,11 @@ unzip = require('unzip');
 function downloadPackages (count, callback) {
 
 	var url = 'https://registry.npmjs.org/lodash/-/lodash-4.17.4.tgz';
+	var source = './packages/lodash.tgz';
+	var dest = './packages/lodash/'
 	console.log("reading");
+
+// fs.createReadStream(source).pipe(tar.extract(dest));
 
 // 	var req = https.get(url);
 // 	req.on('response', function(res) {
@@ -19,7 +23,7 @@ function downloadPackages (count, callback) {
 // });
 
 //creates the tgz file but doesent extract contents
-request(url).pipe(fs.createWriteStream('./packages/lodash.tgz'));
+//request(url).pipe(fs.createWriteStream('./packages/lodash.tgz'));
 
 }
 
