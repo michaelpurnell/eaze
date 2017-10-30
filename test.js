@@ -4,7 +4,7 @@ const test = require('tape')
 const series = require('run-series')
 const fs = require('fs')
 const folderSize = require('get-folder-size')
-const download = require('./')
+const downloadPackages = require('./index.js')
 
 test('download', function (t) {
   t.plan(3)
@@ -12,7 +12,7 @@ test('download', function (t) {
   const COUNT = parseInt(process.env.COUNT, 10) || 10
 
   series([
-    (callback) => download(COUNT, callback),
+    (callback) => downloadPackages(COUNT, callback),
     verifyCount,
     verifySize,
     verifyLodash
