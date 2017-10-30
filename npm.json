@@ -1,0 +1,20 @@
+{"modules":[
+            {"name":"lodash", "tar_url":"https://registry.npmjs.org/lodash/-/lodash-4.17.4.tgz"},            
+            {"name":"request", "tar_url":"https://registry.npmjs.org/request/-/request-2.83.0.tgz"},
+            {"name":"async", "tar_url":"https://registry.npmjs.org/async/-/async-2.5.0.tgz"},
+            {"name":"chalk", "tar_url":"https://registry.npmjs.org/chalk/-/chalk-2.3.0.tgz"},
+            {"name":"express", "tar_url":"https://registry.npmjs.org/express/-/express-4.16.2.tgz"},
+            {"name":"bluebird", "tar_url":"https://registry.npmjs.org/bluebird/-/bluebird-3.5.1.tgz"},
+            {"name":"commander", "tar_url":"https://registry.npmjs.org/commander/-/commander-2.11.0.tgz"},
+            {"name":"debug", "tar_url":"https://registry.npmjs.org/debug/-/debug-3.1.0.tgz"},
+            {"name":"react", "tar_url":"https://registry.npmjs.org/react/-/react-16.0.0.tgz"},
+            {"name":"underscore", "tar_url":"https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz"},
+            {"name":"mkdirp", "tar_url":"https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz"},
+            {"name":"moment", "tar_url":"https://registry.npmjs.org/moment/-/moment-2.19.1.tgz"},
+            {"name":"react-dom", "tar_url":"https://registry.npmjs.org/react-dom/-/react-dom-16.0.0.tgz"},
+            {"name":"fs-extra", "tar_url":"https://registry.npmjs.org/fs-extra/-/fs-extra-4.0.2.tgz"},
+            {"name":"colors", "tar_url":"https://registry.npmjs.org/colors/-/colors-1.1.2.tgz"},
+            {"name":"babel-runtime", "tar_url":"https://registry.npmjs.org/babel-runtime/-/babel-runtime-6.26.0.tgz"},
+            {"name":"glob", "tar_url":"https://registry.npmjs.org/glob/-/glob-7.1.2.tgz"},
+            {"name":"body-parser", "tar_url":"https://registry.npmjs.org/body-parser/-/body-parser-1.18.2.tgz"}]
+}
